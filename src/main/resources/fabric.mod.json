@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "neuralcraft",
+	"version": "${version}",
+	"name": "NeuralCraft",
+	"description": "A mod that adds neural networks to Minecraft",
+	"authors": [
+		"GaraiBence"
+	],
+	"contact": {
+		"homepage": "https://cansat.ddns.net",
+		"sources": "https://github.com/garaibence"
+	},
+	"license": "MIT",
+	"icon": "assets/neuralcraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"neural.craft.NeuralCraft"
+		],
+		"fabric-datagen": [
+			"neural.craft.NeuralCraftDataGenerator"
+		],
+		"client": [
+			"neural.craft.NeuralCraftClient"
+		]
+	},
+	"mixins": [
+		"neuralcraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
