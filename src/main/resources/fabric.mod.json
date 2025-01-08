@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://cansat.ddns.net",
-		"sources": "https://github.com/garaibence"
+		"sources": "https://github.com/garaibence/neuralcraft"
 	},
 	"license": "MIT",
 	"icon": "assets/neuralcraft/icon.png",
